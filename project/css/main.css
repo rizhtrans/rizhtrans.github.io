@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.content {
+	flex-grow: 1;
+	background-color: #333;
+}
+
+html, body {
+	height: 100%;
+}
+
+div {
+	box-sizing: border-box;
+}
+header, footer {
+	width: 100%;
+	background-color: #fff;
+	min-height: 50px; 
+	float: left;
+}
+
+header {
+	border-bottom: 2px solid red;
+	background-color: #333;
+	padding-bottom: 15px;
+}
+
+footer {
+	border-top: 2px solid red;
+	background-color: #333; 
+}
+
+.container {
+	width: 1130px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 7px;
+	margin-bottom: 7px; 
+	float: left;
+    font-family: Palace Script MT, sans-serif; 
+    font-style: italic;
+	display: inline-block;
+	font-size: 50px;
+	text-decoration: none;
+	font-weight: 700;
+	color: red;
+	padding-right: 0.50em;
+	padding-bottom: 0;
+	padding-top: 5px;
+	border-right: 1px solid rgba(0,0,0,0);
+}
+
+nav {
+	float: right;
+	margin-top: 20px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 10px;
+	border-bottom: 5px;
+	border-color: red;
+}
+
+.menu a {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 35px;
+	padding-bottom: 18px;
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+
+.menu a:hover {
+    color: #333;
+	background-color: #a9a9a9;
+	border-radius: 1px;
+	padding-bottom: 28px;
+	transition: all ease 0.5s
+
+}
+
+
+
+
+
+p {
+	font-size: 17px;
+	color: #6c757d;
+	padding-bottom: 15px;
+}
+
+
+
+#slider {
+	width: 1130px;
+	height: 450px;
+	border-radius: 5px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa {
+	
+	width: 4520px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa img {
+	float: left;
+}
+
+#polosa::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.pic {
+	float: left;
+	margin: 0 30px 0 0;
+	border-radius: 30px;
+
+}
+
+p {
+	font-size: 17px;
+	color: #6c757d;
+	padding-bottom: 15px;
+}
+
+h1 {
+	padding-bottom: 80px;
+	padding-top: 40px;
+	font-family: Calibri, sans-serif;
+}
+
+h2 {
+	padding-bottom: 15px;
+	color: #333333;
+	font-family: Calibri, sans-serif;
+}
+
+
+
+#buttonzapros {
+	padding: 10px;
+	margin: 3px;
+	background-color: blue;
+	font-family: Calibri, sans-serif;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 15px;
+	border: 0;
+	text-decoration: none;
+}
+
+.block {
+
+	margin: 0;
+	float: left;
+	padding-right: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	max-width: 370px;
+	display: inline-block;
+
+}
+
+.block h2, p {
+	padding-left: 100px;
+}
+
+#blocks img {
+	padding-bottom: 15px;
+}
+
+#map {
+	background: linear-gradient(to top, #797979, #efefef);
+}
+
+
+section {
+	padding-bottom: 35px;
+	
+}
+
+
+#h1sec2 {
+	padding-top: 100px;	
+}
+
+#piccompany {
+	padding-left: 40px;
+	float: right;
+	margin: 0 30px 0 0;
+	border-radius: 30px;
+}
+
+#section1 {
+	background: linear-gradient(to top, #797979, #efefef);
+	padding-bottom: 50px;
+
+}
+
+#buttcontact {
+	padding: 10px;
+	margin: 3px;
+	font-family: Calibri, sans-serif;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 15px;
+	border: 0;
+	background-color: #4a4a4a7a;
+	text-decoration: none;
+
+}
+
+#comp1 {
+	padding-right: 10px;
+}
+
+.sections {
+	background-color: #efefef;
+
+}
+
+#slderback {
+	/*background-color: #bbbbbb;*/
+	background: linear-gradient(to bottom, #a9a9a9, #efefef);
+}
+
+.block-footer {
+	margin: 0;
+	float: left;
+	padding-right: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	max-width: 320px;
+	display: inline-block;
+}
+
+
+
+.logo-footer {
+	margin-top: 7px;
+	margin-bottom: 7px; 
+	float: left;
+    font-family: Palace Script MT, sans-serif; 
+    font-style: italic;
+	display: inline-block;
+	font-size: 60px;
+	text-decoration: none;
+	font-weight: 700;
+	color: white;
+	padding-right: 0.50em;
+	border-right: 1px solid rgba(0,0,0,0);
+}
+
+
+#sectionfoot {
+	background-color: #333;
+	
+}
+
+.namefoot {
+	color: #6c757d;
+	padding-left: 100px; 
+}
+
+#s1 {
+	padding-top: 200px;
+}
+
+#s1 p {
+	padding-left: 0px;
+}
+
+#h2contact {
+	padding-top: 20px;
+	background: linear-gradient(to bottom, #a9a9a9, #efefef);
+}
+
+footer p {
+	padding: 15px;
+}  
+
+#ss2 p{
+	padding-left: 0;
+}
+
+.autophoto {
+	
+	float: left;
+	margin: 0 30px 0 0;
+	border-radius: 40px;
+
+}
+
+
+
+#container1 {
+	padding-top: 100px;
+}
+
